@@ -1,0 +1,356 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apni Dukaan</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+<style>
+    
+    body{
+        background-color: #213232;
+        border: 5px solid white;
+        margin: 0px ;
+        padding: 0;
+        font-family: 'Supermercado One', cursive; ;
+    }
+   #navbarlist{
+       overflow: auto;
+       list-style: none;
+       color: white;
+       size: 35px;
+       
+   }
+   .navitems{
+       float: left;
+       margin: 25px;
+       margin-top: 45px ;
+   }
+   
+   /* #nav3:hover{
+       font-size: large;
+       color: #08AC44;
+       background-color: white;
+       border-radius :15px; 
+       width: 120px;
+       height: 30px;
+       padding: 20px;
+
+   }
+   #nav4:hover{
+       font-size: large;
+       color: #08AC44;
+       background-color: white;
+       border-radius :15px; 
+       width: 120px;
+       height: 30px;
+       padding: 20px;
+       transition-duration: 1s;
+
+   } */
+   /* #nav5:hover{
+       font-size: large;
+       color: #08AC44;
+       background-color: white;
+       border-radius :15px; 
+       width: 120px;
+       height: 30px;
+       padding: 20px;
+
+   } */
+   
+   #nav1{
+       margin-left:  6px;
+       size: 98px;
+       font-size: 29px;
+       /* margin-top: 15px; */
+       margin-top: 35px;
+    }
+   #nav1a{
+        margin-left:  -23px;
+        font-size: 29px;
+        padding: 0px;
+        margin-top: 37px;
+        color: #08AC44;
+
+   }
+   #nav2{
+    padding: -1px;
+    border-radius :5px;
+    
+}
+.navitems:hover{
+    color: #08AC44;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+   }
+   .navitems{
+       margin-left: 34px;
+       padding: 2px;
+   }
+   #lst1{
+       float: right;
+       margin-right: 20px;
+   }
+   #nav7{
+       background-color: #08AC44;
+       width: 91px;
+       height: 30px;
+       margin: 12px;
+       box-sizing: border-box;
+       margin-left: 20px;
+       border-radius: 10px;
+       margin-top: 40px;
+       padding-left: 20px;
+       padding-top: 5px;
+
+   }
+    #section1{
+        color: white;
+        margin-top: 5px;
+        padding-top: 40px;
+        margin-left: 120px;
+        font-size: 28px;
+        display: flex;
+        flex-direction: row;
+    }
+    #btn {
+        margin-left: 241px;
+        margin-top: 31px;
+        background-color: #08AC44;
+        border-radius: 20px;
+        font-size: 24px;
+        padding: auto;
+        width: 192px;
+        height: 45px;
+        padding-left: 32px;
+        padding-top: 9px;
+        box-sizing: border-box;
+    }
+    #btn:hover{
+        color: #08AC44;
+        background-color: white;
+        transition: 0.3s;
+
+   }
+   #btn2:hover{
+        color: #08AC44;
+        background-color: white;
+        transition: 0.3s;
+   }
+    p,h1,h2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    /* img {
+        height: 386px;
+        width: 450px;
+        margin-left: 886px;
+        margin-bottom: 3px;    
+        display: inline;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    } */
+    #item{
+        display: flex;
+        flex-direction: row;
+        margin-left: 12px;
+    }
+    .item1{
+        border: 4px solid #08AC44;
+        margin-left: 94px;
+        padding: 11px;
+        margin-top: 75px;
+        font-size: 30px;
+        height: 314px;
+        width: 289px;
+        box-sizing: border-box;
+        border-radius: 16px;
+        background-color: tomato;
+    }
+    .itemtext{
+        margin-left: 48px;
+        color: aliceblue;
+    }
+    #img1,#img2,#img3{
+        margin-top: 15px;
+        width: 258px;
+        height: 228px;
+        border: 2px solid white;
+        border-radius: 21px;
+    }
+    #img4{
+        margin-top: -22px;
+        width: 297px;
+        height: 254px;
+        /* border: 2px solid white; */
+        border-radius: 21px;
+        margin-left: 144px;
+    }
+    #int1{
+        margin-left: 34px;
+        color: #08AC44;
+        width: 210px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        border-radius: 7px;
+    }
+    #int2{
+        margin-left: 34px;
+        color: aliceblue;
+        width: 210px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        color: #08AC44;
+        border-radius: 7px;
+    }
+    #int3{
+        margin-left: 34px;
+        color: #08AC44;
+        width: 210px;
+        height: 20px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        border-radius: 7px;
+    }
+    .form2{
+        display: flex;
+        flex-direction: column;
+        border-top: 5px solid black;
+        width: 1253px;
+        margin-left: 0px;
+        margin-top: 40px;
+        margin-bottom: -1px;
+    }
+    .form2 img{
+        position: absolute;
+        z-index: -1;
+        opacity: 0.5;
+        width: 100%;
+        height: 337px;
+        object-fit: cover;
+    }
+
+    #data{
+        display: flex;
+        flex-direction: column;
+        color: #08AC44;
+        
+    }
+    #queries{
+        color: aliceblue;
+        margin-top: 55px;
+        margin-left: 30px;
+        font-size: 45px;
+
+    }
+    .form1{
+        display: flex;
+        opacity: 1;
+    }
+    #nav7:hover{
+        color: #08AC44;
+        background-color: aliceblue;
+        width: 91px;
+        height: 30px;
+        margin: 12px;
+        box-sizing: border-box;
+        margin-left: 20px;
+        border-radius: 10px;
+        margin-top: 40px;
+        padding-left: 20px;
+        padding-top: 5px;
+        transition-duration: 0.3s;
+    }
+    #cpr{
+        margin-top: 55px;
+    }
+    #btn2{
+        width: 93px;
+        height: 31px;
+        margin-left: 78px;
+        border: 2px solid black;
+        border-radius: 15px;
+        margin-top: 17px;
+        color: white;
+        background-color: #08AC44;
+    }
+    .inp1{
+    }
+
+    
+ 
+</style>
+<body>
+    <div id="navbar">
+        <ul id="navbarlist">
+            <div id="amn">
+                <li id="nav1" class="navitems" >Aapki </li>
+                <li id="nav1a" class="navitems">Dukaan</li>
+                <div class="hd"></div>
+                <li id="nav2" class="navitems">Why Apni Dukaan?</li>
+                <li id="nav3" class="navitems">Pricing </li>
+                <li id="nav4" class="navitems">Testinomials</li>
+                <li id="nav5" class="navitems">Become Executive</li>
+            </div>
+                <div id="lst1">
+                    <li id="nav6" class="navitems">Login</li>
+                    <li id="nav7" class="navitems">Sign up</li>
+                </div>
+            </ul>
+    </div>
+
+    <div id="section1">
+        <div>
+            <p>
+            <!-- <h1><image Src="https://www.fromdreamstolifese.com/wp-content/uploads/2012/08/iStock-1045426166-1024x808.jpg" alt="image not available"></image></h1> -->
+            <h1>Boost Yours sales </h1>
+            <h1>With Aapki Apni Dukaan </h1>
+            </p>
+            <p>Create Your Own Website with us in few clicks and</p>
+            <p>start selling to your audience for free </p>
+            <p id="btn">Create NOW</p>
+        </div>
+        <div>
+            <p><image src="ss4.png" id="img4"></image></p>
+        </div>
+    </div>
+    <div id="item">
+        <div class="item1">
+            <p class="itemtext">Electronics</p>
+            <p><image src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" id="img1"></image></p>
+        </div>
+        <div class="item1">
+            <p class="itemtext">Grocery</p>
+            <p><image src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" id="img2"></image></p>
+        </div>
+        <div class="item1">
+            <p class="itemtext">Wearables</p>
+            <p><image src="https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80" id="img3"></image></p>
+        </div>
+    </div>
+    <div id="bckg1">
+    <section class="form2">
+        <img src="https://media.istockphoto.com/photos/question-mark-concept-picture-id1271398176?b=1&k=20&m=1271398176&s=170667a&w=0&h=GCywY6R3Mtl-nUQnvW6TwXeU1MZ-l-i-HLZIuihyuMA=" alt="bg">
+        <div class="form1">
+            <u></u>
+            
+            <form action="backend.php">
+            <div id="data">
+            <input type="text" name="Name" id="int1" class="inp1" placeholder="Name" required>
+            <input type="password" id="int2" class="inp1" placeholder="Phone number" required>
+            <input type="email" id="int3" class="inp1" placeholder="Email-id" required>
+            <button id="btn2" class="inp1">Submit</button>
+            <P id="queries"><u>ASk your Queries here ?</u></P>
+            </div>
+        </div>   
+    </section>
+    </div>
+    </body>
+</html>
